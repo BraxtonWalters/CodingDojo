@@ -1,4 +1,4 @@
-// var for keeping count og likes
+// var for keeping count of likes
 var likeCount = 0;
 // func increasing the like counter var
 function increaseLikes() {
