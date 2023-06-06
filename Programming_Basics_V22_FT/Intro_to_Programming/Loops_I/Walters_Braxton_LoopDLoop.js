@@ -8,8 +8,9 @@
 let runnersSpeed = 5.5;
 
 // create a loop that increments by 2 and starts at 2
-for (let i = 2; i <= 6; i += 2) {
+for (let i = 2; i < 6; i += 2) {
   // condit for checking the runners speed
+  console.log(i);
   if (runnersSpeed >= 5.5) {
     console.log("Dispening Candy");
   }
