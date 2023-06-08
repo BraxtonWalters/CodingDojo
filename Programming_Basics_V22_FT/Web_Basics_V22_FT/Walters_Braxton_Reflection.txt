@@ -1,0 +1,11 @@
+First, answer: how have you noticed your bootcamp knowledge grow or change during Programming Basics?
+
+I feel like the fundamentals have really been cemented in my head from watching John teach and through helping others with their assignments.  
+
+Then, answer: how have you noticed your approach to learning change throughout Programming Basics?
+
+Not really change that i can see. I bad at seeing that kind of stuff.
+
+Finally, share: what do you consider your "Mistake of the Week," which was a valuable failure you learned from during Programming Basics?
+
+I was helping someone from another class with for loop and i couldn't get it through to them. I had to ask a buddy to help come in and explain them. I thought that it was a bad at first because I couldn't explain it good enough, but I ended up learning for loops even better. 1. create the var 2. check the condit 3. run the code 4. increment. through accepting I wasn't good enough to teach something I learned something. 
