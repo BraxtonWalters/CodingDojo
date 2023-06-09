@@ -34,4 +34,3 @@ function rewardPicker() {
 
 console.log(rewardPicker());
 
-// cocker sucker 
