@@ -1,5 +1,3 @@
-
-
 // creating a function that takes the min val to the front of an array
 function minToFront(arr) {
     // init our min and index vars
@@ -15,19 +13,29 @@ function minToFront(arr) {
             indexMin = i;
         }
     }
-    // loop to shift the min to the front 
+    // this loop starts at the index of the min val. Everything past that can stay the same
     for (let j = indexMin; j > 0; j--) {
-        // here we are shift each element of the array
+        // replacing the current index with the val to the left
+        // index 0 and 1 will be the same when the loop completes
         arr[j] = arr[j - 1];
-        // setting the min element to the front of the array
-        arr[j - 1] = min;
     }
+    // setting the min element to the front of the array
+    arr[0] = min;
     // returning the array provided
     return arr
+}
+
+
+function moveMin(arr) {
+    let min = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+
+    }
+    return arr;
 }
 
 const arr1 = [5, 93, 22, 4];   // 4, 5, 93, 22
 const arr2 = [3, 4, 2, 1, 5];  // 1, 3, 4, 2, 5
 
-
+// console.log(moveMin(arr2));
 console.log(minToFront(arr2));
